@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #eeeeee;
+  }
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #5CCACA;
+  position: relative;
+  font-size: 28px;
+  height: 200px;
+}
+main{
+    display:grid;
+    grid-template-columns: auto auto;
+    color: #00544A;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.logo img{
+  max-width:100px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+}
+.twitter img {
+  height: 100%;
+  max-height: 100px;
+  width: 100px;
+  padding-left: 150px;
+}
+.twitter p{
+  padding-left: 200px;
+  font-size:28px;
+}
+.insta img {
+    height: 100%;
+    max-height: 100px;
+    width: 100px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.insta p{
+  padding-left: 200px;
+  font-size:28px;
+}
+.face img {
+    height: 100%;
+    max-height: 100px;
+    width: 100px; 
+    padding-left: 150px;
+}
+.face p{
+  padding-left: 200px;
+  font-size:28px;
+}
+.tartaruguinha img{
+  height: 100%;
+  max-height: 300px;
+  width: 300px;
+  padding-top: 10px;
+  padding-left: 160px;
+}
+.tartaruguinha p{
+  font-size: 28px;
+  padding-left: 140px;
+  padding-top: 150px;
+}
+footer{
+    background-color: #5BB6BB;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    color:#eeeeee;
+}
+@media(max-width: 850px){
+  header{
+    font-size: 22px;
+  }
+  main{
+    font-size: 24px;
+    grid-template-columns: auto;
+  }
+  .tartaruguinha p{
+    padding: 30px;
+  }
+  .tartaruguinha img{
+    padding-left: 90px;
+    height: 100%;
+    max-height: 250px;
+    width: 250px;
+  }
+  .twitter img {
+    height: 100%;
+    max-height: 80px;
+    width: 80px;
+    padding-left: 90px;
+  }
+  .twitter p{
+    font-size:24px;
+    padding-left: 90px;
+  }
+  .insta img {
+    height: 100%;
+    max-height: 80px;
+    width: 80px;
+    padding-left: 90px;
+  }
+  .insta p{
+    font-size:24px;
+    padding-left: 90px;
+  }
+  .face img {
+    height: 100%;
+    max-height: 80px;
+    width: 80px;
+    padding-left: 90px;
+  }
+  .face p{
+    font-size:24px;
+    padding-left: 90px;
+  }
+  .logo img{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    padding-right: 30px;
+  }
+}
