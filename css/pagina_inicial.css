@@ -27,7 +27,6 @@ a{
     max-height:100px;
     width: auto;
     height: auto;
-    opacity: 0.5;
 }
 main{
     display:grid;
