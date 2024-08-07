@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #eeeeee;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5CCACA;
+    position: relative;
+    font-size: 28px;
+    height: 300px;
+    background-image: url(./img/cabecalho1pag.png);
+    background-size: cover;
+    position:relative;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.logo img{
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+main{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "titulo      titulo"
+    "acompanhar  apoiar"
+    "acompanhar  apoiar"
+    "perguntas   perguntas";
+    font-size: 28px;
+    color: #00544a;
+    padding: 80px;
+    align-items: center;
+}
+main img{
+    height: 100%;
+    max-height: 350px;
+    width: 350px;
+    border-radius: 10%;
+}
+footer{
+    background-color: #5BB6BB;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    color:#eeeeee;
+}
+.titulo p{
+    font-size: 36px;
+    grid-area: titulo;
+}
+.acompanhar{
+    grid-area: acompanhar;
+}
+.apoiar{
+    grid-area: apoiar;
+}
+.subtitulo p{
+    font-size: 28px;
+}
+.perguntas_frequentes{
+    font-size: 28px;
+    grid-area: perguntas;
+}
+.oq_eh{
+    font-size: 24px;
+}
+.quem_apoia{
+    font-size: 24px;
+}
+.resposta_oq{
+    font-size: 20px;
+}
+.resposta_quem{
+    font-size: 20px;    
+}
+@media screen and (max-width: 950px){
+    header{
+        font-size: 22px;
+    }
+    .logo img{
+        max-width:50px;
+        max-height:50px;
+        width: auto;
+        height: auto;
+        padding-right: 30px;
+      }
+    main{
+        grid-template-areas:
+            "titulo"
+            "acompanhar"
+            "apoiar"
+            "perguntas";
+    }
+}
